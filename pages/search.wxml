@@ -1,0 +1,12 @@
+<!--pages/search.wxml-->
+<scroll-view class="container" style="height:100%">
+  <view class="search-header">
+    <view class="input-box">
+      <image class="logo" src="https://image.uisdc.com/wp-content/uploads/2013/04/8-eight-GreenButton.jpg"></image>
+    <input name="input" class="keyword" focus="true" value="{{keyword}}" confirm-type="search" bindinput="inputChange" bindfocus="inputFocus" bindconfirm="onKeywordConfirm" placeholder="{{defaultKeyword.keyword}}"></input>
+    </view>
+  
+  </view>
+
+
+</scroll-view>
